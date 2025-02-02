@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'SwiftProtobuf'
+  s.name = 'VSwiftProtobuf'
   s.version = '1.28.2'
   s.license = { :type => 'Apache 2.0', :file => 'LICENSE.txt' }
   s.summary = 'Swift Protobuf Runtime Library'
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.13'
   s.tvos.deployment_target = '11.0'
   s.watchos.deployment_target = '4.0'
+  s.visionos.deployment_target = "1.0"
 
   s.cocoapods_version = '>= 1.7.0'
 
